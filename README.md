@@ -15,7 +15,7 @@ A simple website that will manage the project assigned to other people.
 1. Clone this repository: 
 ```bash 
 
-git clone [https://github.com/anubhavv106/Temperature-Converter](https://github.com/anubhavv106/Project-management-tool)
+git clone https://github.com/anubhavv106/Project-management-tool
    ```
 2. Open the `index.html` file in your browser.
 
