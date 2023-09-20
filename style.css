@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: linear-gradient(to right, #82ae8e, #7cc2b2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.container-1 {
+    width: 100%;
+    background-color: rgba(237, 171, 171, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #000000;
+}
+
+.head-2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #007BFF;
+}
+
+.identifier {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+}
+
+.form-control {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 input,
+span {
+    display: block;
+}
+
+.container-1 input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 3px solid #7373e6;
+    border-radius: 5px;
+    outline: none;
+}
+
+.well {
+    background: #fff;
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.4rem;
+}
+
+#savebtn {
+    font-size: 1.5rem;
+    background: #007BFF;
+    outline: none;
+    border: none;
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#savebtn:hover {
+    background: #0056b3;
+}
+
+#clrbtn {
+    font-size: 1.5rem;
+    background: #FF4D4D;
+    outline: none;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+#clrbtn:hover {
+    background: #CC0000;
+}
+
+/* issue list */
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.7rem;
+    padding: 12px 2px;
+}
+
+.labid span {
+    background: #FF5E00;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.labid h6 {
+    margin-top: 5px;
+    color: #333;
+}
+
+.well p glyphicon-user {
+    margin-left: 1rem;
+    padding: 5rem;
+}
+
+.well #closebtn {
+    background: #04A126;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.well #closebtn:hover {
+    background: #02861D;
+}
+
+.well #delbtn {
+    background: #FF0404;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.well #delbtn:hover {
+    background: #CC0202;
+}
+
+/* back button */
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #007BFF;
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background: #007BFF;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #007BFF;
+    color: white;
+}
+
+p {
+    margin-bottom: 10px;
+}
