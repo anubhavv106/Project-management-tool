@@ -28,7 +28,8 @@ git clone https://github.com/anubhavv106/Project-management-tool
 ## 🎥 Demo Video
 
 
-https://github.com/anubhavv106/Project-management-tool/assets/112748712/b75f11c6-8fdc-4e72-b97a-621066ee02a1
+https://github.com/anubhavv106/Project-management-tool/assets/112748712/8712129f-a4a9-4d9c-afed-2ce372bc910d
+
 
 
 ## 📝 License
