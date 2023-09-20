@@ -1,40 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0%;
+    padding: 0%;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
 
 body {
-    background: linear-gradient(to right, #82ae8e, #7cc2b2);
+    background: linear-gradient(to right, #ce8eec, #9f13ea, #841abc, #500479);
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: #000;
 }
 
 .container-1 {
     width: 100%;
-    background-color: rgba(237, 171, 171, 0.9);
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: .3s;
+    background: rgba(255, 255, 255, 0.2); /* Frosted glass background */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
+    backdrop-filter: blur(10px); /* Frosted glass blur effect */
     max-width: 60rem;
     width: 100%;
     margin: 2rem auto;
     padding: 1.5rem;
-    border-radius: 0.5rem;
-    border: 2px solid #000000;
+    border-radius: .5rem;
 }
 
 .head-2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    color: #007BFF;
 }
 
 .identifier {
@@ -42,7 +44,6 @@ body {
     font-weight: 600;
     margin-bottom: 1rem;
     font-family: 'Roboto Mono', monospace;
-    color: #333;
 }
 
 .form-control {
@@ -60,58 +61,61 @@ body {
     align-items: center;
 }
 
-.container-1 input,
-span {
+.container-1 input, span {
     display: block;
 }
 
 .container-1 input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 3px solid #7373e6;
+    width: 115%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
+    background-color: #f1f1f1; /* Background color for input fields */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Neomorphic inset shadow */
 }
 
 .well {
-    background: #fff;
     max-width: 60rem;
     width: 100%;
     margin: 1rem auto;
     padding: 1.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid #ccc;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.2); /* Frosted glass background */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
+    backdrop-filter: blur(10px); /* Frosted glass blur effect */
     font-size: 1.4rem;
 }
 
+
 #savebtn {
     font-size: 1.5rem;
-    background: #007BFF;
+    background: #0730e9;
     outline: none;
     border: none;
     width: 40%;
     color: white;
     border-radius: 10px;
-    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
 }
 
 #savebtn:hover {
-    background: #0056b3;
+    background: #0423ad;
 }
 
 #clrbtn {
     font-size: 1.5rem;
-    background: #FF4D4D;
+    background: #b90404;
     outline: none;
     float: right;
     border: none;
-    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
 }
 
 #clrbtn:hover {
-    background: #CC0000;
+    background: #b40404;
 }
 
 /* issue list */
@@ -119,21 +123,19 @@ span {
     display: flex;
     gap: 1rem;
     font-family: 'Roboto Mono', monospace;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
     margin-bottom: 0.7rem;
     padding: 12px 2px;
 }
 
 .labid span {
-    background: #FF5E00;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px 10px;
+    background: rgb(255, 94, 0);
+    color: rgb(255, 255, 255);
 }
 
 .labid h6 {
     margin-top: 5px;
-    color: #333;
+    color: white;
 }
 
 .well p glyphicon-user {
@@ -142,29 +144,27 @@ span {
 }
 
 .well #closebtn {
-    background: #04A126;
+    background: rgb(4, 161, 38);
     outline: none;
     border: none;
     color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
 }
 
 .well #closebtn:hover {
-    background: #02861D;
+    background: rgb(3, 119, 28);
 }
 
 .well #delbtn {
-    background: #FF0404;
+    background: rgb(219, 4, 4);
     outline: none;
     border: none;
     color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Neomorphic box shadow */
 }
 
 .well #delbtn:hover {
-    background: #CC0202;
+    background: rgb(173, 2, 2);
 }
 
 /* back button */
@@ -174,8 +174,8 @@ span {
     float: left;
     cursor: pointer;
     margin-top: 2rem;
-    margin-left: 1rem;
-    color: #007BFF;
+    margin-left: 13rem;
+    color: rgb(255, 255, 255);
 }
 
 .backbtn a {
@@ -194,7 +194,6 @@ span {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 0.25em;
-    background: #007BFF;
 }
 
 .btn {
@@ -218,10 +217,16 @@ span {
     border: 1px solid transparent;
     border-radius: 4px;
     text-decoration: none;
-    background: #007BFF;
-    color: white;
 }
 
 p {
     margin-bottom: 10px;
+    color: wheat;
+}
+ 
+h1{
+    margin-top: 20px;
+    margin-bottom: -5px;
+
+
 }
